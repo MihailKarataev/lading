@@ -1,0 +1,22 @@
+/**
+ * Theme Name:  lading
+ * Author:      Mihail
+ * Description: Простой лединг с небольшим функционалом
+ * License:     Лицензия. Пример: GNU General Public License v2 or later
+ * License URI: URL на лицензию. Пример: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags:        Метки темы, по которым тему можно будет найти в каталоге WordPress. Например: black, brown, orange, tan, white, yellow
+ * Text Domain: Домен перевода для темы. Нужен чтобы можно было перевести описание указанное в Description. Например: twentythirteen
+ * Version:     Версия темы. Пример: 1.0
+ */
+ .container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+ .logo{
+    width: 150px;
+    height: 50px;
+    background: url();
+    background-size: contain;
+ }
