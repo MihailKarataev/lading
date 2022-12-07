@@ -1,22 +1,109 @@
 /**
  * Theme Name:  lading
  * Author:      Mihail
- * Description: Простой лединг с небольшим функционалом
- * License:     Лицензия. Пример: GNU General Public License v2 or later
- * License URI: URL на лицензию. Пример: http://www.gnu.org/licenses/gpl-2.0.html
- * Tags:        Метки темы, по которым тему можно будет найти в каталоге WordPress. Например: black, brown, orange, tan, white, yellow
- * Text Domain: Домен перевода для темы. Нужен чтобы можно было перевести описание указанное в Description. Например: twentythirteen
- * Version:     Версия темы. Пример: 1.0
  */
  .container{
-    max-width: 1100px;
+
+    max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
+    font-family: sans-serif;
+ }
+
+ .container-gray{
+    width: 100%;
+    background: #f5f5f5;
+ }
+
+ .header__bar{
+    display: flex;
+    justify-content: space-between;
  }
 
  .logo{
-    width: 150px;
-    height: 50px;
-    background: url();
-    background-size: contain;
+    padding: 4px;
+    width: 77px;
+    height: 25px;
+    font-size: 27px;
+    color: #707070;
+    border: 2px solid #707070;
+ }
+
+ .logo span:first-child{
+    color: #ff5c39;
+ }
+
+ .menu__button{
+    height: 40px;
+    width: 40px;
+    background: url(images/menu_ico.png);
+    background-position: 50% 50%;
+    background-size: cover;
+ }
+
+ .menu__button:hover{
+    cursor: pointer;
+ }
+
+ .container__title{
+    display: table;
+    margin: 70px auto 10px; 
+    font-size: 27px;
+    color: #707070;
+ }
+
+ .container__text{
+    width: 484px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+    line-height: 1.7em;
+ }
+ .container__title span:first-child{
+    color: #ff5c39;
+ }
+
+ .header__sendForm{
+    margin-left: 35px;
+    width: 200px;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 1px 1px 18px #a9a9a9;
+ }
+
+ .header__sendForm input{
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-bottom: 25px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #707070;
+    font-size: 15px;
+    color: #454545;
+}
+
+ .header__sendForm-title{
+    display: table;
+    margin: 0 auto;
+    color: #707070;
+    font-size: 18px;
+ }
+
+ .header__sendForm-title span:first-child{
+    color: #ff5c39;
+ }
+
+ .header__sendForm button{
+    margin: 0 auto;
+    background: #ff5c39;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    color: #ffffff;
  }

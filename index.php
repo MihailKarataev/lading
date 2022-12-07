@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <title>Smart</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo"></div>
-            <div class="container__title">Smart Agency Landing Page</div>
-            <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
+    <header class="header container-gray">
+        <div class="container ">
+            <div class="header__bar">
+                <div class="logo"><span>S</span><span>mart<span></div>
+                <button id="#" class="menu__button"></button>
+            </div>
+            <div class="container__title"><span>Smart </span><span>Agency Landing Page</span></div>
+            <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             <div class="header__sendForm">
-                <div class="header__sendForm-title"></div>
-                <input type="text" name="name">
-                <input type="text" name="email">
-                <input type="text" name="text_message">
-                <submit>Send Message</submit>
+                <div class="header__sendForm-title"><span>Send </span><span>A Message</span></div>
+                <input placeholder="Your Name" type="text" name="name">
+                <input placeholder="Your Email" type="text" name="email">
+                <input placeholder="Your Message" type="text" name="text_message">
+                <button>Send Message</button>
             </div>
         </div>
     </header>
@@ -55,8 +58,8 @@
             </div>
         </div>
     </div>
-    <div class="featuredWorks">
-        <div class="container">
+    <div class="featuredWorks container-gray">
+        <div class="container ">
             <div class="container__title">Featured Works</div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="featuredWorks__item">
@@ -101,8 +104,8 @@
             </div>
         </div>
     </div>
-    <div class="teamCinenSkills">
-        <div class="container">
+    <div class="teamCinenSkills container-gray">
+        <div class="container ">
             <div class="container__title">Team Chinen & Skills</div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="teamCinenSkills__content">
@@ -164,7 +167,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="container-gray">
         <div class="container container__products">
             <div class="product">
                 <img src="#" alt="">
@@ -185,7 +188,7 @@
                 <img src="#" alt="">
             </div>
         </div>
-        <div class="container container__footer">
+        <div class="container container__footer ">
             <button class="contactUs"></button>
             <div class="footer__socials">
                 <div class="socials_facebook"></div>
