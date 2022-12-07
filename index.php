@@ -8,10 +8,11 @@
     <title>Smart</title>
 </head>
 <body>
+    <!--header page-->
     <header class="header container-gray">
-        <div class="container ">
+        <div class="container header__background">
             <div class="header__bar">
-                <div class="logo"><span>S</span><span>mart<span></div>
+                <a href="/" class="logo"><span>S</span><span>mart<span></a>
                 <button id="#" class="menu__button"></button>
             </div>
             <div class="container__title"><span>Smart </span><span>Agency Landing Page</span></div>
@@ -25,75 +26,80 @@
             </div>
         </div>
     </header>
-
+    <!--header page-->
+    <!--working process page-->
     <div class="workingProcess">
         <div class="container">
-            <div class="container__title">Working Process</div>
+            <div class="container__title"><span>Working</span><span> Process</span></div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="workingProcess__content">
                 <div class="workingProcess__item workingProcess__item-blue">
                     <div class="workingProcess__item-image"></div>
-                    <div class="workingProcess__item-title"></div>
-                    <div class="workingProcess__item-text"></div>
-                    <div class="workingProcess__item-button"></div>
+                    <div class="workingProcess__item-title">Koc Koi Tomi</div>
+                    <div class="workingProcess__item-text">Lorem isput is dummy ry dummy Loren isput is</div>
+                    <button class="workingProcess__item-button">Know More</button>
                 </div>
                 <div class="workingProcess__item workingProcess__item-purple">
                     <div class="workingProcess__item-image"></div>
-                    <div class="workingProcess__item-title"></div>
-                    <div class="workingProcess__item-text"></div>
-                    <div class="workingProcess__item-button"></div>
+                    <div class="workingProcess__item-title">Koimona Set</div>
+                    <div class="workingProcess__item-text">Lorem isput is dummy ry dummy Loren isput is</div>
+                    <button class="workingProcess__item-button">Know More</button>
                 </div>
                 <div class="workingProcess__item workingProcess__item-violet">
                     <div class="workingProcess__item-image"></div>
-                    <div class="workingProcess__item-title"></div>
-                    <div class="workingProcess__item-text"></div>
-                    <div class="workingProcess__item-button"></div>
+                    <div class="workingProcess__item-title">Setting Koire</div>
+                    <div class="workingProcess__item-text">Lorem isput is dummy ry dummy Loren isput is</div>
+                    <button class="workingProcess__item-button">Know More</button>
                 </div>
-                <div class="workingProcess__item workingProcess__item">
+                <div class="workingProcess__item workingProcess__item-red">
                     <div class="workingProcess__item-image"></div>
-                    <div class="workingProcess__item-title"></div>
-                    <div class="workingProcess__item-text"></div>
-                    <div class="workingProcess__item-button"></div>
+                    <div class="workingProcess__item-title">Ko Image Lara</div>
+                    <div class="workingProcess__item-text">Lorem isput is dummy ry dummy Loren isput is</div>
+                    <button class="workingProcess__item-button">Know More</button>
                 </div>
             </div>
         </div>
     </div>
     <div class="featuredWorks container-gray">
         <div class="container ">
-            <div class="container__title">Featured Works</div>
+            <div class="container__title"><span>Featured</span><span> Works</span></div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
-            </div>
-            <div class="featuredWorks__item">
-                <a heref="#"><img src=""></a>
+            <div class="featureWorks__content">
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/1.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/12.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/3.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/4.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/5.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/11.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/7.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/8.jpeg"></a>
+                </div>
+                <div class="featuredWorks__item">
+                    <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/9.jpeg"></a>
+                </div>
             </div>
         </div>
     </div>
+    <!--working process page-->
+    <!--service we provide page-->
     <div class="serviceWeProvide">
         <div class="container">
-            <div class="container__title">Service We Provide</div>
+            <div class="container__title"><span>Service</span><span> We Provide<span></div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="serviceWeProvide__content">
                 <div class="serviceWeProvide__content-image-left"></div>
@@ -106,7 +112,7 @@
     </div>
     <div class="teamCinenSkills container-gray">
         <div class="container ">
-            <div class="container__title">Team Chinen & Skills</div>
+            <div class="container__title"><span>Team</span><span> Chinen & Skills</span></div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="teamCinenSkills__content">
                 <div class="teamCinenSkills__item">
@@ -140,9 +146,11 @@
             </div>
         </div>
     </div>
+    <!--service we provide page-->
+    <!--client said page-->
     <div class="clientSaid">
         <div class="container">
-            <div class="container__title">Client Said</div>
+            <div class="container__title"><span>Client<span></span> Said<span></div>
             <div class="container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
             <div class="clientSaid__content">
                 <div class="clientSaid__item">
@@ -166,7 +174,8 @@
             </div>
         </div>
     </div>
-
+    <!--client said page-->
+    <!--footer-->
     <footer class="container-gray">
         <div class="container container__products">
             <div class="product">
@@ -198,5 +207,6 @@
             </div>
         </div>
     </footer>
+    <!--footer-->
 </body>
 </html>
