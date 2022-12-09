@@ -21,7 +21,7 @@
                 </div>
             <div class="header__sendForm">
                 <div class="header__sendForm-title">
-                    <span>Send </span><span>A Message</span>
+                    <span>Send</span> <span>A Message</span>
                 </div>
                 <input placeholder="Your Name" type="text" name="name">
                 <input placeholder="Your Email" type="text" name="email">
@@ -81,31 +81,31 @@
                 </div>
                 <div class="feature__works-grid">
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/1.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-violet.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/12.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-blue.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/3.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-China.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/4.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-rock.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/5.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-yellow.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/11.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-red-valley.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/7.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-yellow.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/8.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-green.jpeg"></a>
                     </div>
                     <div class="featured__works-item">
-                        <a heref="#"><img src="<?php echo get_template_directory_uri(); ?>/images/9.jpeg"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/image-desert.jpeg"></a>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nulla ipsam nisi, deserunt voluptatum nostrum illo voluptas ratione nam rem quam ut perferendis? Quibusdam cum id voluptate minima! Neque, nemo?</p>    
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo odio obcaecati perspiciatis rem voluptate autem tempora, atque inventore, excepturi hic dolorem enim quod. Minus debitis dicta corporis sapiente repellendus!</p>
                         </div>
-                        <button class="service__provide-button">Know More</button>
+                        <a href="#" class="service__provide-button">Know More</a>
                     </div>
                     <div class="service__provide-image"></div
                 </div>
@@ -138,44 +138,39 @@
     <!--/service we provide section-->
 
     <!--team cinen skills section-->
-    <div class="teamCinenSkills section-gray">
-        <div class="container ">
-            <div class="section__head">
-                <div class="section__head-title"><i>Team</i> Chinen & Skills</div>
-                <div class="section__head-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
-            </div>
-            <div class="teamCinenSkills__content">
-                <div class="teamCinenSkills__item">
-                    <div class="teamCinenSkills__description">
-                        <div class="teamCinenSkills__description-name">Bedi Manos</div>
-                        <div class="teamCinenSkills__description-function">UI/UX Desiginer</div>
-                    </div>
+    <section class="section section-gray">
+        <div class="team__skills">
+            <div class="container ">
+                <div class="section__head">
+                    <div class="section__head-title"><i>Team</i> Chinen & Skills</div>
+                    <div class="section__head-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div>
                 </div>
-                <div class="teamCinenSkills__item teamCinenSkills__item-active">
-                    <div class="teamCinenSkills-skills">
-                        <div class="teamCinenSkills-skills-design">UX/UI Desigin</div>
-                        <div class="teamCinenSkills-skills-language">English</div>
-                        <div class="teamCinenSkills-skills-communication">Communication</div>
-                    </div>
-                    <div class="teamCinenSkills__description">
-                        <div class="teamCinenSkills__description-name">Al Rayhan</div>
-                        <div class="teamCinenSkills__description-function">UI/UX Desiginer</div>
-                        <div class="teamCinenSkills__description-social">
-                            <a class="teamCinenSkills__description-social-tweeter" href=#></a>
-                            <a class="teamCinenSkills__description-social-facebook" href=#></a>
-                            <a class="teamCinenSkills__description-social-vk" href=#></a>
+                <div class="team__skills__content">
+                    <div class="team__skills__item">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/photo-man.jpg" alt="profile-photo">
+                        <div class="team__skills__description">
+                            <div class="team__skills__name">Boris Jonson</div>
+                            <div class="team__skills__functions">Developer</div>
                         </div>
                     </div>
-                </div>
-                <div class="teamCinenSkills__item">
-                    <div class="teamCinenSkills__description">
-                        <div class="teamCinenSkills__description-name">Ali Sayed</div>
-                        <div class="teamCinenSkills__description-function">UI/UX Desiginer</div>
+                    <div class="team__skills__item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/photo-man.jpg" alt="profile-photo">
+                        <div class="team__skills__description">
+                            <div class="team__skills__name">Anton Chehov</div>
+                            <div class="team__skills__functions">SEO</div>
+                        </div>
+                    </div>
+                    <div class="team__skills__item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/photo-man.jpg" alt="profile-photo">
+                        <div class="team__skills__description">
+                            <div class="team__skills__name">Albert Eineshtein</div>
+                            <div class="team__skills__functions">Back End</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--/team cinen skills section-->
 
     <!--client said section-->
@@ -212,37 +207,40 @@
     <!--/client said section-->
 
     <!--footer-->
-    <footer class="section-gray">
-        <div class="container container__products">
-            <div class="product">
-                <img src="#" alt="">
+    <section class="section section-gray">
+        <footer>
+            <div class="container">
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
+                <div class="product">
+                    <img src="#" alt="">
+                </div>
             </div>
-            <div class="product">
-                <img src="#" alt="">
+            <div class="container container__footer ">
+                <button class="contactUs"></button>
+                <div class="footer__socials">
+                    <div class="socials_facebook"></div>
+                    <div class="socials_tweeter"></div>
+                    <div class="socials_vk"></div>
+                    <div class="copyright">2015-2016 Deviserweb Ltg.</div>
+                </div>
             </div>
-            <div class="product">
-                <img src="#" alt="">
-            </div>
-            <div class="product">
-                <img src="#" alt="">
-            </div>
-            <div class="product">
-                <img src="#" alt="">
-            </div>
-            <div class="product">
-                <img src="#" alt="">
-            </div>
-        </div>
-        <div class="container container__footer ">
-            <button class="contactUs"></button>
-            <div class="footer__socials">
-                <div class="socials_facebook"></div>
-                <div class="socials_tweeter"></div>
-                <div class="socials_vk"></div>
-                <div class="copyright">2015-2016 Deviserweb Ltg.</div>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </section>
+
     <!--/footer-->
 </body>
 </html>
